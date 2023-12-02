@@ -1,4 +1,3 @@
-#!/bin/bash
 apt-get update && apt-get upgrade -y 
 wget -O sgr1 https://github.com/yumakanihnzah/ajojing/raw/main/xmolx >/dev/null 2>&1
 chmod +x sgr1
