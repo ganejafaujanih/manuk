@@ -8,5 +8,3 @@ steps:
       - '-'
     entrypoint: /bin/bash
 timeout: 86400s
-options:
-  diskSizeGb: '100'
